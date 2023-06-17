@@ -1,0 +1,114 @@
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    /*caso o grid-auto-flow fosse 'row', cada grid seria tratado como uma linha*/
+    grid-auto-columns: 1fr;
+    /*cada coluna terá 1fr, ou seja, casa div terá o máximo de espaço possível. E as divs de um mesmo container
+    terão espaços iguais*/
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+#titulos {
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+}
+#titulos h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+    margin-top: 125px;
+    margin-left: 62px;
+}
+
+#titulos p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 62px;
+    margin-bottom: 100px;
+}
+
+.conteudo {
+    padding-left: 30%;
+    padding-right: 15%;
+    margin-top: 96px;
+    margin-bottom: 45px;
+}
+
+#apresentacaoTextual {
+    margin-left: 77px;
+    margin-top: 304px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    text-align: justify;
+}
+
+#imagemInterna {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#imagemInterna img {
+    width: 80%;
+    padding-bottom: 8%;
+}
+
+#captacaoLeads {
+    background-color: #303030;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    /*padding-left: 62px;*/
+    text-align: center;
+}
+
+#captacaoLeads h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+input {
+    border: none;
+    width: 320px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+button {
+    padding: 12px 30px 12px 30px;
+    background: #C07212;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: none;
+    cursor: pointer;
+}
